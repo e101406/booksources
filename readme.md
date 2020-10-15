@@ -18,6 +18,14 @@
         --- is_discover.json（书源支持搜索）
 ```  
 
+#### 关于导入
+```$xslt
+导入地址：https://raw.githubusercontent.com/e101406/booksources/master/{书源版本文件夹}/{书源json文件名称}
+例：假如我要导入2.0版本书源下的total.json（全部书源）
+   则导入地址为：https://raw.githubusercontent.com/e101406/booksources/master/2.0/total.json
+   其它书源同理，替换地址中文件夹和文件名即可
+```  
+
 #### 更新情况
 ```$xslt
 1.0 修改生成书源json文件体积，防止文件太大导致导入文件变成git网页文件造成的无法导入问题。
